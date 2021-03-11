@@ -12,4 +12,4 @@ The assignment involved making a personal website for a fictional character.  I 
 <img width="1782" alt="Screen Shot 2021-03-10 at 2 55 16 PM" src="https://user-images.githubusercontent.com/35150986/110703573-3008a700-81b1-11eb-9274-a67b5097b9d0.png"> 
   
 ## Link To Website 
-Get to know Walter a little better at: [Walter White Website](https://drausch84.github.io/CS336_Fictional_Character_Website/). 
+Get to know Walter a little better at: [Walter White Website](https://drausch84.github.io/FictionalWebsite/). 
