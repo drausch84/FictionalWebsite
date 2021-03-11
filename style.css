@@ -1,0 +1,189 @@
+@import url(//db.onlinewebfonts.com/c/62fa13c8d6a7597eef48bdd7e57de4a3?family=Heart+Breaking+Bad);
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/76/a6/c6/76a6c6515947b290b00bc2efd3f00833.png");
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-image:url("https://www.fg-a.com/wallpapers/white-marble-1-2018.jpg");
+}
+
+#container{
+    margin-bottom: 31em;
+    min-height: 100%;
+    overflow: auto;
+    padding: 0 2em;
+}
+
+nav{
+    background:black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navitem{
+    float: left;
+    color:white;
+    display: block;
+    text-align: center;
+    padding: 14pt 16pt;
+    text-decoration: none;
+}
+
+.navitem:hover{
+    background:gray;
+}
+
+.email{
+    color:white;
+}
+
+@font-face {
+    font-family: Heart Breaking Bad;
+url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot");
+    src: url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.svg#Heart Breaking Bad") format("svg");
+}
+
+h1{
+    font-family: "Heart Breaking Bad", sans-serif;
+    font-size:62pt;
+    text-align:center;
+}
+
+li{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size:28pt;
+}
+
+.underline-magic{
+    display:inline-block;
+    position:relative;
+    padding-bottom:2pt;
+}
+
+.underline-magic:before{
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:2pt;
+    width:0;
+    transition:width 0s ease, background .5s ease;
+}
+
+.underline-magic:after{
+    content:'';
+    display:block;
+    position:absolute;
+    right:0;
+    bottom:0;
+    height:2pt;
+    width:0;
+    background:black;
+    transition:width .5s ease;
+}
+
+.underline-magic:hover:before{
+    width:100%;
+    background:black;
+    transition:width .5s ease;
+}
+
+.underline-magic:hover:after{
+    width:100%;
+    background:transparent;
+    transition:all 0s ease;
+}
+
+p{
+    font-family: 'Shippori Mincho B1', serif;
+}
+.indentp{
+    text-indent:50pt;
+}
+.r-link{
+    display: var(--rLinkDisplay, inline-flex) !important;
+    font-size:28pt;
+}
+
+.r-link[href]{
+    color: var(--rLinkColor) !important;
+    text-decoration: var(--rLinkTextDecoration, none) !important;
+}
+
+.text-underlined{
+    --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2pt); /* 1 */
+    --uiTextUnderlinedLineGap: var(--textUnderlinedLineGap, .5rem);
+    --uiTextUnderlinedPaddingBottom: calc(var(--uiTextUnderlinedLineHeight) + var(--uiTextUnderlinedLineGap));
+
+    padding-bottom: var(--uiTextUnderlinedPaddingBottom) !important;
+    position: var(--textUnderlinedPosition, relative) !important;
+    z-index: var(--textUnderlinedZindex, 1) !important;
+}
+
+.text-underlined::after{
+    content: "";
+    width: var(--textUnderlinedLineWidht, 100%) !important;
+    height: var(--uiTextUnderlinedLineHeight) !important;
+    background-image: var(--textUnderlinedBackgroundImage, linear-gradient(to top, var(--textUnderlinedLineColor, currentColor) 30%, rgba(0, 0, 0, 0) 45%)) !important;
+
+    position: absolute;
+    left: var(--textUnderlinedLineLeft, 0) !important;
+    bottom: var(--textUnderlinedLineBottom, 0) !important;
+    z-index: var(--textUnderlinedLineZindex, -1) !important;
+}
+
+.link{
+    --textUnderlinedLineHeight: 100%;
+    --textUnderlinedLineGap: 0;
+    --textUnderlinedLineColor: #fed330;
+
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.link::after{
+    will-change: width;
+    transition: width .1s ease-out;
+    transform: rotate(-2deg);
+    transform-origin: left bottom;
+}
+
+.link:hover{
+    --textUnderlinedLineWidht: 0;
+}
+
+.link:hover::after{
+    transition-duration: .15s;
+}
+
+.website-list{
+    position:absolute;
+    top:45%;
+    left:40%;
+}
+.aboutpic{
+    height:420pt;
+    width:650pt;
+    border:3pt solid black;
+    border-radius:2pt;
+    margin-top:20pt;
+}
+
+.aboutp{
+    text-indent:50pt;
+    font-size:14pt;
+}
